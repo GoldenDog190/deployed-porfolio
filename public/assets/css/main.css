@@ -2195,6 +2195,7 @@ input, select, textarea {
 
 	#main {
 		margin-left: 375px;
+		box-sizing: border-box;
 	}
 
 		#main > section {
@@ -2241,7 +2242,8 @@ input, select, textarea {
 				overflow: scroll;
 				background: url(../../images/lighthouse-or.jpeg)center no-repeat, url(../../images/tulips.jpeg) left no-repeat, url(../../images/lavender.jpeg) right no-repeat;
 				background-size: 33.33%;
-				transition: ease-in-out;
+				cursor: auto;
+				transition: 1s;
 			}
 
 			#main > section.two {
