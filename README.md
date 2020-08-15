@@ -16,8 +16,8 @@ Estimate of time needed to complete: 1hr
 
 Start time: 4:30
 
-Finish time: 
+Finish time: 5:00
 
-Actual time needed to complete: 
+Actual time needed to complete: 30 min
 
-url:
+url: https://amelia-waggoner-portfolio.herokuapp.com/
