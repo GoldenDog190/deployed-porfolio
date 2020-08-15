@@ -2237,7 +2237,10 @@ input, select, textarea {
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				display: flex;
+				overflow: scroll;
+				background: url(../../images/lighthouse-or.jpeg)center no-repeat, url(../../images/tulips.jpeg) left no-repeat, url(../../images/lavender.jpeg) right no-repeat;
+				background-size: 33.33%;
 			}
 
 			#main > section.two {
