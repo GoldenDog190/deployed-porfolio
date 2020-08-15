@@ -444,7 +444,13 @@ section, summary, time, mark, audio, video {
 
     #main > section.one {
       background-color: #81918E;
-      background-image: url("../../images/banner.jpg");
+      display: flex;
+      overflow: scroll;
+      background: url(../../images/lighthouse-or.jpeg)center no-repeat, url(../../images/tulips.jpeg) left no-repeat, url(../../images/lavender.jpeg) right no-repeat;
+      background-size: 33.33%;
+      background-size: 33.33%;
+      cursor: all-scroll;
+      transition: 2s;
     }
 
     #main > section.two {

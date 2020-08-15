@@ -2114,10 +2114,14 @@ input, select, textarea {
 		list-style: none;
 		padding-left: 0;
 		margin-bottom: 0;
+		position: fixed;
+		text-align: right;
+		margin-left: 50px;
 	}
 
 		#nav ul li {
-			padding-left: 0;
+			padding-left: 10px;
+			margin-left: 5px;
 		}
 
 			#nav ul li a {
@@ -2134,7 +2138,6 @@ input, select, textarea {
 			}
 
 				#nav ul li a span {
-					position: relative;
 					display: block;
 					font-size: 0.8em;
 				}
@@ -2192,6 +2195,7 @@ input, select, textarea {
 
 	#main {
 		margin-left: 375px;
+		box-sizing: border-box;
 	}
 
 		#main > section {
@@ -2234,7 +2238,12 @@ input, select, textarea {
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				display: flex;
+				overflow: scroll;
+				background: url(../../images/lighthouse-or.jpeg)center no-repeat, url(../../images/tulips.jpeg) left no-repeat, url(../../images/lavender.jpeg) right no-repeat;
+				background-size: 33.33%;
+				cursor: auto;
+				transition: 1s;
 			}
 
 			#main > section.two {
